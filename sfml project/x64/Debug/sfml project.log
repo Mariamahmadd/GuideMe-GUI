@@ -1,0 +1,21 @@
+﻿  GuideMe.cpp
+C:\Users\Mariam\source\repos\sfml project\sfml project\GuideMe.cpp(285,64): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4244:             _Ty1=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4244:         ]
+  (compiling source file 'GuideMe.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Mariam\source\repos\sfml project\sfml project\GuideMe.cpp(282,47):
+  	see reference to function template instantiation 'std::pair<int,std::vector<std::pair<std::string,std::string>,std::allocator<std::pair<std::string,std::string>>>>::pair<double,std::vector<std::pair<std::string,std::string>,std::allocator<std::pair<std::string,std::string>>>,0>(std::pair<double,std::vector<std::pair<std::string,std::string>,std::allocator<std::pair<std::string,std::string>>>> &&) noexcept' being compiled
+  		C:\Users\Mariam\source\repos\sfml project\sfml project\GuideMe.cpp(282,37):
+  		see the first reference to 'std::pair<int,std::vector<std::pair<std::string,std::string>,std::allocator<std::pair<std::string,std::string>>>>::pair' in 'GuideMe::dfsAllPaths'
+  
+C:\Users\Mariam\source\repos\sfml project\sfml project\GuideMe.cpp(145,1): warning C4715: 'GuideMe::deleteEdgehelper': not all control paths return a value
+  sfml project.vcxproj -> C:\Users\Mariam\source\repos\sfml project\x64\Debug\sfml project.exe
